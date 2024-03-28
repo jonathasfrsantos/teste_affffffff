@@ -1,0 +1,92 @@
+.table-title {
+    text-align: center;
+}
+
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: auto;
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    table-layout: auto;
+    text-align: center;
+
+}
+.table td, .table th {
+ 
+}
+
+.table td {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table tr:nth-child(odd) {
+    background-color:rgb(207, 206, 221)
+}
+
+.table tr:hover {
+    background-color: #98b2e9;
+    
+}
+
+.table th {
+    background-color: rgb(37, 78, 192);
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.edit-icon {
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: green;
+}
+.delete-icon {
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+.table-footer {
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 10px;
+}
+
+.table-footer th, td, tr {
+    border: 1px solid transparent;
+}
+
+.table-footer:hover{
+    background: none;
+}
+
+.blue-text {
+    color: rgb(25, 125, 255); /* Define a cor azul para os itens da coluna "entrada" */
+}
+
+.red-text {
+    color: red; /* Define a cor vermelha para os itens da coluna "saída" */
+}
+
+.total-revenues {
+    color: rgb(25, 125, 255);
+    font-weight: bold;
+}
+
+.total-expenses {
+    color: red;
+    font-weight: bold;
+}
+
+
+@media print {
+    .actions-column, .actions-rows, .actions-column button {
+        display: none;
+    }
+}

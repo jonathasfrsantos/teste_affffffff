@@ -1,0 +1,20 @@
+.button-bar-container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    margin: 20px 150px 20px 150px;
+  }
+
+
+  
+  .search-bar {
+
+    margin-left: auto; /* Empurra a barra de pesquisa para a direita */
+    
+  }
+  
+  .search-bar input[type="text"] {
+    width: 90%;
+    margin-left: 5px; /* Adiciona um espaço entre o ícone e o campo de pesquisa */
+    border-radius: 10px;
+  }
+  

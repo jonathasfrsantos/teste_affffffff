@@ -1,0 +1,94 @@
+{ 
+  "lançamentos": [
+    {
+      "id": 1,
+      "data": "01/01/2024",
+      "entrada": 150.00,
+      "saida": 0.00,
+      "historico": "Fulano de tal",
+      "finalidade": "Dízimos",
+      "bancoCaixa": "Caixa"
+    },
+    {
+      "id": 2,
+      "data": "02/01/2024",
+      "entrada": 100.00,
+      "saida": 50.00,
+      "historico": "Ciclano",
+      "finalidade": "Despesas gerais",
+      "bancoCaixa": "Banco"
+    },
+    {
+      "id": 3,
+      "data": "03/01/2024",
+      "entrada": 200.00,
+      "saida": 0.00,
+      "historico": "Beltrano",
+      "finalidade": "Investimentos",
+      "bancoCaixa": "Caixa"
+    },
+    {
+      "id": 4,
+      "data": "04/01/2024",
+      "entrada": 300.00,
+      "saida": 100.00,
+      "historico": "Lorem Ipsum",
+      "finalidade": "Compras",
+      "bancoCaixa": "Banco"
+    },
+    {
+      "id": 5,
+      "data": "05/01/2024",
+      "entrada": 50.00,
+      "saida": 0.00,
+      "historico": "Sit Amet",
+      "finalidade": "Vendas",
+      "bancoCaixa": "Caixa"
+    },
+    {
+      "id": 6,
+      "data": "06/01/2024",
+      "entrada": 180.00,
+      "saida": 20.00,
+      "historico": "Consectetur",
+      "finalidade": "Pagamentos",
+      "bancoCaixa": "Banco"
+    },
+    {
+      "id": 7,
+      "data": "07/01/2024",
+      "entrada": 250.00,
+      "saida": 0.00,
+      "historico": "Adipiscing",
+      "finalidade": "Recebimentos",
+      "bancoCaixa": "Caixa"
+    },
+    {
+      "id": 8,
+      "data": "08/01/2024",
+      "entrada": 90.00,
+      "saida": 30.00,
+      "historico": "Elit",
+      "finalidade": "Doações",
+      "bancoCaixa": "Banco"
+    },
+    {
+      "id": 9,
+      "data": "09/01/2024",
+      "entrada": 400.00,
+      "saida": 200.00,
+      "historico": "Sed",
+      "finalidade": "Empréstimos",
+      "bancoCaixa": "Caixa"
+    },
+    {
+      "id": 10,
+      "data": "10/01/2024",
+      "entrada": 120.00,
+      "saida": 0.00,
+      "historico": "Ametista papapapapapapapapapapapapapapapapapapapap",
+      "finalidade": "Investimentos",
+      "bancoCaixa": "Banco"
+    }
+  ]
+}

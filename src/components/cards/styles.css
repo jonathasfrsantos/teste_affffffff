@@ -1,0 +1,88 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 10px 10px;
+   margin: 20px auto 30px auto;
+}
+
+.card-revenues,
+.card-expenses,
+.card-previous-balance,
+.card-current-balance {
+    text-align: center;
+    margin-left: 30px;
+    color:white;
+    flex: 0 0 calc(18% - 30px);
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  
+}
+
+.card-body img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover; /* ou 'contain', dependendo do efeito desejado */
+    overflow: hidden;
+    background: transparent;
+}
+
+.card-revenues > .card-header,
+.card-expenses > .card-header,
+.card-previous-balance > .card-header,
+.card-current-balance > .card-header
+{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+.card-body h1 {
+    margin:10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.card-revenues{
+    /*background: rgba(23, 117, 203, 1) ;/* Gradiente de azul para um azul mais escuro */
+    background: linear-gradient(to right, #5b7fff, #33ccfc);
+    
+}
+
+.card-revenues * {
+    background: linear-gradient(to right, #5b7fff, #33ccfc);
+    color: white; /* Defina a cor do texto para branco */
+}
+
+.card-expenses {
+
+    background: linear-gradient(to right, #fd4d2e, #f81d00);
+
+}
+.card-expenses * {
+    
+    background: linear-gradient(to right, #fd4d2e, #f81d00);
+    
+}
+
+.card-previous-balance {
+    background: linear-gradient(to right, #6889ff, #c668ff);
+}
+
+.card-previous-balance * {
+    background: linear-gradient(to right, #6889ff, #c668ff);
+}
+
+.card-current-balance {
+    background: linear-gradient(to right, #45c270, #21cdc4);
+}
+
+.card-current-balance  * {
+    background: linear-gradient(to right, #45c270, #21cdc4);
+}
+
